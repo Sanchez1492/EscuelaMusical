@@ -118,3 +118,28 @@ body a:hover{
     object-fit: cover;
 
 }
+
+.form-contacto{
+    width: 500px;
+    padding: 80px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    background-color: wheat;
+    border-radius: 15px;
+    
+
+}
+
+.form-contacto h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.campos-text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
