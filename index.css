@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedan-SC&display=swap");
+
+:root {
+    --bg-color-darker: #9B3922;
+    --bg-color-dark: #252525;
+    --text-color: #0C0C0C;
+}
+
 *{
     box-sizing: border-box;
     font-style: normal;
-    font-family:'Sedan',serif;
+    font-family: "Merienda", cursive;
     font-weight:bold;
-    
 }
 
-body{
+body {
 margin: 0;
 padding: 0;
-background-color: #0E5658;
+background-color: var(--bg-color-dark);
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-
 .navbar{
-    color: black;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,12 +32,20 @@ align-items: center;
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
-    background-color: #0e56587e;
+    background-color: var(--bg-color-darker);
     backdrop-filter: blur(2px);
     font-size: 18px;
     flex-direction:row;
-    width: 100vw;    
+    width: 100vw;   
+    box-shadow: 1px 20px 31px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 20px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 20px 31px 0px rgba(0,0,0,0.75);
 }
+
+.navbar a {
+    color: var(--text-color);
+}
+
 
 body a{
     padding: 5px 12px;
@@ -45,8 +58,12 @@ body a:hover{
     color:white;
 }
 
-.clase-section{
-    
+.logo-container {
+    height: 90%;
+}
+
+.logo-container img {
+    height: 100%;
 }
 
 #S1  {                         
@@ -63,7 +80,7 @@ body a:hover{
     background-position: center center;   
     background-image: url("./Img Proyecto/img7-proyecto.jpg");
     border-radius: 15px;
-    box-shadow: 15px 15px #073e41;
+    box-shadow: 15px 15px var(--text-color);
 
 }
 
@@ -116,7 +133,7 @@ body a:hover{
     height: 700px;
     width: 450px;
     object-fit: cover;
-
+    object-position: center;
 }
 
 .form-contacto{
