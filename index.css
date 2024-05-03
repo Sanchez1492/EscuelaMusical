@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan-SC&display=swap");
+*{
+    box-sizing: border-box;
+    font-style: normal;
+    font-family:'Sedan',serif;
+    font-weight:bold;
+    
+}
+
+body{
+margin: 0;
+padding: 0;
+background-color: #0E5658;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.navbar{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 0 30px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: #0e56587e;
+    backdrop-filter: blur(2px);
+    font-size: 18px;
+    flex-direction:row;
+    width: 100vw;    
+}
+
+body a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+}
+
+body a:hover{
+    color:white;
+}
+
+.clase-section{
+    
+}
+
+#S1  {                         
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+    min-height: 100vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color:black;
+    background-position: center center;   
+    background-image: url("./Img Proyecto/img7-proyecto.jpg");
+    border-radius: 15px;
+    box-shadow: 15px 15px #073e41;
+
+}
+
+#S2{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./Img Proyecto/img2-proyecto.jpg");
+    width: 60vw;
+    min-height: 100vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color:black;
+    border-radius: 15px;   
+    box-shadow: 15px 15px #073e41;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 100%;
+}
+
+#S3{   
+
+}
+
+#S4 .carta{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.74);      
+    text-align: left; 
+    background-size: cover;
+    width: 80vw;
+    height: 60vh;
+    margin: 18px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 15px 15px #073e41;
+}
+
+#S4 .texto{
+    display: flex;
+    color: #0a4a4d;
+    flex-direction: column;
+    padding: 10px;  
+}
+
+.carta img{
+    height: 700px;
+    width: 450px;
+    object-fit: cover;
+
+}
